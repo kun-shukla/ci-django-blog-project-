@@ -20,7 +20,8 @@ from django.urls import path, include
 # Alternatively - from blog import views as blog_views
 urlpatterns = [
     # path('blog/', my_blog, name='blog'),
-    path("", include("blog.urls"), name="blog-urls"),
     # Alternatively - path("blog/", blog_views.my_blog, name='blog'),
     path('admin/', admin.site.urls),
+    path('summernote/', include('django_summernote.urls')),
+    path("", include("blog.urls"), name="blog-urls"), 
 ]
