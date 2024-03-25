@@ -51,11 +51,6 @@ body {
     height: auto;
 }
 
-.profile-image {
-    width: 75%;
-    border-radius: 50%
-}
-
 .author {
     color: white;
     margin: 4px;
@@ -94,6 +89,10 @@ body {
     -moz-transform: skew(15deg);
     transform: skew(15deg);
     z-index: 100;
+}
+
+.profile-img {
+    width: 75%
 }
 
 .post-link {
