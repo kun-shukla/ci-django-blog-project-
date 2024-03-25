@@ -46,14 +46,14 @@ body {
     background-color: #188181;
 }
 
-.profile-image {
-    width: 75%;
-    border-radius: 50%;
-}
-
 .scale {
     width: 100%;
     height: auto;
+}
+
+.profile-image {
+    width: 75%;
+    border-radius: 50%
 }
 
 .author {
