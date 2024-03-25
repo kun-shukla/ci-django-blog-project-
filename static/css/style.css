@@ -46,6 +46,11 @@ body {
     background-color: #188181;
 }
 
+.profile-image {
+    width: 75%;
+    border-radius: 50%;
+}
+
 .scale {
     width: 100%;
     height: auto;
@@ -89,10 +94,6 @@ body {
     -moz-transform: skew(15deg);
     transform: skew(15deg);
     z-index: 100;
-}
-
-.profile-image {
-    width:75%;
 }
 
 .post-link {
